@@ -9,6 +9,13 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+for rank in ranks
+    for suit in suits 
+        puts "#{rank} of #{suit}"
+    end
+end
+
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds
@@ -20,3 +27,23 @@ suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 # CHALLENGE
 # Deal a poker hand. Shuffle the deck and "deal" (i.e. display) a 5 card hand (i.e. 5 cards from the deck).
 # You will want to look at the documentation for Arrays: https://ruby-doc.org/core-2.7.0/Array.html
+
+
+
+
+
+
+# attempted this in class
+# rank_count = 0
+# suits_count = 0
+# loop do
+#     if rank_count = ranks.count
+#         break
+#     loop do 
+#         if suits_count = suits.count
+#             break
+#             puts "#{rank_count} of #{suits_count}"
+#             suits_count = suits_count + 1
+#         end
+#         puts 
+
